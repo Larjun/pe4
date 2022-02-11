@@ -33,6 +33,7 @@ class TicTacToe {
             board[2][2] = 0;
         }
         
+        /*
         void printBoard() {
             for(int x = 0; x < 3; x++) {
                 for(int y = 0; y < 3; y++) {
@@ -52,7 +53,7 @@ class TicTacToe {
                 cout << endl;
                 if(x < 2) {cout << "--+---+--" << endl;}
             }
-        } 
+        } */
 
         bool placeMarker(int side, int x, int y) {
             if(board[x][y] != -1) {
@@ -71,11 +72,11 @@ class TicTacToe {
 
         void GetPlayerChoice() {
             bool go = true;
-            bool placable = false;
+            bool placeable = false;
             string x;
             string y;
 
-            while(!placable) {
+            while(!placeable) {
                 if(side == 0) {cout << "X's turn";} 
                 else {cout << "O's turn";}
 
@@ -97,7 +98,7 @@ class TicTacToe {
                     }
                 }
 
-                placable = placeMarker(side, stoi(x), stoi(y));
+                placeable = placeMarker(side, stoi(x), stoi(y));
             }
 
 
