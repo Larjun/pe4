@@ -1,0 +1,64 @@
+X's turn
+Enter a row to move to 0-2: 0
+
+Enter a column to move to 0-2: 0
+X |   |  
+--+---+--
+  |   |  
+--+---+--
+  |   |  
+O's turn
+Enter a row to move to 0-2: 0
+
+Enter a column to move to 0-2: 2
+X |   | O
+--+---+--
+  |   |  
+--+---+--
+  |   |  
+X's turn
+Enter a row to move to 0-2: 1
+
+Enter a column to move to 0-2: 0
+X |   | O
+--+---+--
+X |   |  
+--+---+--
+  |   |  
+O's turn
+Enter a row to move to 0-2: 2
+
+Enter a column to move to 0-2: 0
+X |   | O
+--+---+--
+X |   |  
+--+---+--
+O |   |  
+X's turn
+Enter a row to move to 0-2: 1
+
+Enter a column to move to 0-2: 1
+X |   | O
+--+---+--
+X | X |  
+--+---+--
+O |   |  
+O's turn
+Enter a row to move to 0-2: 2
+
+Enter a column to move to 0-2: 2
+X |   | O
+--+---+--
+X | X |  
+--+---+--
+O |   | O
+X's turn
+Enter a row to move to 0-2: 1
+
+Enter a column to move to 0-2: 2
+X |   | O
+--+---+--
+X | X | X
+--+---+--
+O |   | O
+X wins the game
