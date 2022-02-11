@@ -51,6 +51,7 @@ class TicTacToe {
                 }
                 cout << endl;
                 if(x < 2) {cout << "--+---+--" << endl;}
+
             }
         } 
 
@@ -67,7 +68,7 @@ class TicTacToe {
                 board[x][y] = side;
                 return true;
             }
-        }
+        } 
 
         void GetPlayerChoice() {
             bool go = true;
