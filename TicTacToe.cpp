@@ -18,7 +18,7 @@ class TicTacToe {
 
             side = 0;
         }
-
+        /*
         void testBoard() {
             board[0][0] = 0;
             board[0][1] = 1;
@@ -31,7 +31,8 @@ class TicTacToe {
             board[2][0] = 0;
             board[2][1] = 1;
             board[2][2] = 0;
-        }
+        }*/
+        
         
         void printBoard() {
             for(int x = 0; x < 3; x++) {
@@ -72,11 +73,11 @@ class TicTacToe {
 
         void GetPlayerChoice() {
             bool go = true;
-            bool placable = false;
+            bool placeable = false;
             string x;
             string y;
 
-            while(!placable) {
+            while(!placeable) {
                 if(side == 0) {cout << "X's turn";} 
                 else {cout << "O's turn";}
 
@@ -98,7 +99,7 @@ class TicTacToe {
                     }
                 }
 
-                placable = placeMarker(side, stoi(x), stoi(y));
+                placeable = placeMarker(side, stoi(x), stoi(y));
             }
 
 
