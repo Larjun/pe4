@@ -3,6 +3,11 @@
 
 using namespace std;
 
+struct Location {
+	int x;
+	int y;
+};
+
 class TicTacToe {
     private:
         bool playerSq[3][3];
@@ -70,6 +75,33 @@ class TicTacToe {
             }
         } 
 
+        Location GetPlayerChoice() {
+            bool go = true;
+            string x;
+            string y;
+            while(go) {
+                x = "";
+                cout << endl << "Enter a row to move to 0-2: ";
+                cin >> x;
+                if (x == "0" || x == "1" || x == "2") {
+                    go = false;
+                }
+            }
+            go = true;
+            while(go) {
+                y = "";
+                cout << endl << "Enter a column to move to 0-2: ";
+                cin >> y;
+                if (y == "0" || y == "1" || y == "2") {
+                    go = false;
+                }
+            }
+            Location loc;
+            loc.x = stoi(x);
+            loc.y = stoi(y);
+            return loc;
+        }
+
         void placeMarker(int side);
 
         int checkGameEnd();
@@ -77,6 +109,5 @@ class TicTacToe {
 
 int main() {
     TicTacToe game = TicTacToe();
-    game.testBoard();
-    game.printBoard();
+    game.GetPlayerChoice();
 }
