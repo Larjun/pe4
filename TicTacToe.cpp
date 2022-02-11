@@ -18,7 +18,7 @@ class TicTacToe {
 
             side = 0;
         }
-
+        /*
         void testBoard() {
             board[0][0] = 0;
             board[0][1] = 1;
@@ -31,9 +31,9 @@ class TicTacToe {
             board[2][0] = 0;
             board[2][1] = 1;
             board[2][2] = 0;
-        }
+        }*/
         
-        /*
+        
         void printBoard() {
             for(int x = 0; x < 3; x++) {
                 for(int y = 0; y < 3; y++) {
@@ -54,7 +54,7 @@ class TicTacToe {
                 if(x < 2) {cout << "--+---+--" << endl;}
 
             }
-        } */
+        } 
 
         bool placeMarker(int side, int x, int y) {
             if(board[x][y] != -1) {
