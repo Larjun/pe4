@@ -66,7 +66,7 @@ class TicTacToe {
                     if(y < 2) {cout << " | ";}
                 }
                 cout << endl;
-                if(x < 2) {cout << "--+---+--" << endl;;}
+                if(x < 2) {cout << "--+---+--" << endl;}
             }
         } 
 
