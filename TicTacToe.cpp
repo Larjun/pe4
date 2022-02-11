@@ -48,7 +48,7 @@ class TicTacToe {
             board[2][2] = 1;
             playerSq[2][2] = true;
         }
-        /*
+        
         void printBoard() {
             for(int x = 0; x < 3; x++) {
                 for(int y = 0; y < 3; y++) {
@@ -68,7 +68,7 @@ class TicTacToe {
                 cout << endl;
                 if(x < 2) {cout << "--+---+--" << endl;;}
             }
-        } */
+        } 
 
         void placeMarker(int side);
 
