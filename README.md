@@ -3,5 +3,5 @@
 - The game will prompt the players to enter a row and column to move to and depending on if the player is X or O, then it will print and place that marker on the board.
 - Play until X's or O's win!
 
-Person 1: Arjun Narasimhan
+Person 1: Arjun Narasimhan<br/>
 Person 2: Richard Roberson
